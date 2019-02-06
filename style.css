@@ -1,0 +1,44 @@
+h1{
+    background-color: olive;
+    text-align: center;
+    border-radius: 7px;
+}
+h2{
+    border-radius: 7px;
+    background-color: olive;
+    text-align: center;
+    font-style:italic;
+    font-size:33px;
+}
+h3{
+    color: chartreuse;
+    text-align: center;
+}
+#grid-flex{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    background-color: olive;
+}.grid-item{
+    width:33%;
+ 
+    
+}
+img{
+    width:80%;
+    background-color:rgb(100,200, 155);
+    border-radius: 5px;
+   
+}
+p{
+    font-size:15px;
+    
+
+}
+li{
+    list-style-type: none;
+}
+@media screen and (max-width: 1700px) {
+    .grid-item {width: 380px; float: left;}
+    .grid-item {margin-left: 10px;}
+  }
