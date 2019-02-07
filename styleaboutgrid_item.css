@@ -1,0 +1,43 @@
+h1{ 
+    text-align: center;
+    border-radius: 7px;
+}
+h2{
+    border-radius: 7px;
+    text-align: center;
+    font-style:italic;
+    font-size:33px;
+}
+h3{
+    color: chartreuse;
+    text-align: center;
+}
+body{
+     background-color: olive;
+}
+#grid-flex{
+    grid-template-columns: repeat(3,1fr); 
+}.grid-item{
+    width:90%;
+    display:grid;
+    
+}
+img{
+    width:80%;
+    background-color:rgb(100,200, 155);
+    border-radius: 5px; 
+}
+p{
+    font-size:18px;
+}
+li{
+    list-style-type: none;
+}
+@media screen and (min-width:700px) {
+    .grid-item {
+        width: 400px; 
+        float: left;
+       margin-left: 20px;
+
+    }
+  }
